@@ -9,6 +9,6 @@ object CheckOut {
       On pressing enter in the console, the total cost of the items will be displayed
      */
     val items = io.StdIn.readLine().split(' ').toList
-    println(totalCost(Cart(items)))
+    println(totalCostWithOffers(Cart(items)))
   }
 }

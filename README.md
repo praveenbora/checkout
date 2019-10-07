@@ -15,3 +15,31 @@ the total cost
 candidates take a list of strings as input
 
 
+## Step 2: Simple offers
+1. The shop decides to introduce two new offers
+  2. buy one, get one free on Apples
+  3. or the price of 2 on Oranges
+4. Update your checkout functions accordingly
+
+
+## To run the application:
+
+```
+sbt clean run
+```
+
+
+### To cleanup and remove the target directory
+
+```
+sbt clean 
+```
+or
+```
+find . -name target -type d -exec rm -rf {} \;
+```
+
+## Running Test
+```
+sbt clean test
+```
